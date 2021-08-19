@@ -31,7 +31,7 @@
 // Restore compilation warnings.
 #pragma warning(pop)
 #endif
-
+/*
 lv_fs_res_t lv_win32_filesystem_driver_error_from_win32(
     DWORD Error)
 {
@@ -122,7 +122,7 @@ lv_fs_res_t lv_win32_filesystem_driver_error_from_win32(
 
     return res;
 }
-
+*/
 //void* lv_win32_filesystem_driver_open_callback(
 //    lv_fs_drv_t* drv,
 //    const char* path,
@@ -213,7 +213,7 @@ int main()
     lv_demo_widgets();           // ok
     // lv_demo_benchmark();
     // lv_demo_keypad_encoder();    // ok
-    // lv_demo_music();             // removed from repository
+    // lv_demo_music();            // removed from repository
     // lv_demo_printer();           // removed from repository
     // lv_demo_stress();            // ok
 
